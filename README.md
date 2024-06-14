@@ -2,9 +2,9 @@
 
 Purpose: The purpose of this Lab assignment is to:
 
--   Design recursive algorithms
+- Design recursive algorithms
 
--   Implement recursive methods in Java or Python
+- Implement recursive methods in Java or Python
 
 References: Read the course’s text chapter 5 and the lecture slides.
 This material provides the necessary information that you need to
