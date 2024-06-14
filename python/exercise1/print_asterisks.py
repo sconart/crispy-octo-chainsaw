@@ -1,10 +1,13 @@
 def print_asterisks(n, current=1):
-    if current > n:
-        return
-    print("*" * current)
-    print_asterisks(n, current + 1)
-    if current != n:
-        print("*" * current)
+    return (
+        None
+        if current > n
+        else (
+            print("*" * current)
+            or print_asterisks(n, current + 1)
+            or (current != n and print("*" * current))
+        )
+    )
 
 
 def main():
