@@ -1,7 +1,4 @@
 def compute_product(m, n):
-    if n < 0:
-        return -compute_product(m, -n)
-
     if n == 0:
         return 0
     return m + compute_product(m, n - 1)
